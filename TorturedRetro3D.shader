@@ -102,7 +102,7 @@
 				currentSprite.x -= rowIndex * _Columns * offPerFrame.x;
 				uv = (uv + currentSprite);
 
-				return tex2D(_MainTex, uv) * _Color;
+				return tex2D(_MainTex, uv) * _Color * 2;
 			}
 			ENDCG
 		}
