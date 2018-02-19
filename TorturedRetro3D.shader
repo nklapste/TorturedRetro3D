@@ -104,7 +104,6 @@
 
 				return tex2D(_MainTex, uv) * _Color;
 			}
-
 			ENDCG
 		}
 	}
